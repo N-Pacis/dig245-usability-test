@@ -1,2 +1,106 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
 
-/* css */
+html {
+    scroll-behavior: smooth;
+}
+
+#home>h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.arrow-down{
+    height: 250px;
+}
+
+.test-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.section-subtitle{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.section-description{
+    font-size: 25px;
+    font-family: 300;
+}
+
+.section-description>span{
+    font-weight: bold;
+}
+.visit-button{
+    border: 1px solid #D81B1B;
+    background: transparent;
+    padding: 10px 50px;
+    width: auto;
+    border-radius: 12px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.update-score-button{
+    background-color: #D81B1B;
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 10px 50px;
+    font-size: 15px;
+    text-align: center;
+    width: auto;
+}
+
+#score{
+    font-weight: 700;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    #home>h1{
+        font-size: 60px;
+    }
+    .logo{
+        width: 80%;
+    }
+    .test-title{
+        font-size: 30px;
+    }
+
+    .section-subtitle{
+        font-size: 30px;
+    }
+    .section-description{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #home>h1{
+        font-size: 60px;
+    }
+    .logo{
+        width: 80%;
+    }
+    .test-title{
+        font-size: 30px;
+    }
+
+    .section-subtitle{
+        font-size: 30px;
+    }
+    .section-description{
+        font-size: 20px;
+    }
+}
